@@ -5,56 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shoe O'Clock</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <header class="header">
+        <a id="top"></a>
         <nav>
-            <h3 class="logo">Lorem Ipsum</h3>
+            <h3 class="logo">Shoe O'Clock</h3>
             <ul class="nav-links">
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Ipsum</a></li>
-                <li><a href="#">Dolor</a></li>
+                <li><a href="#4_shoes">Shoes</a></li>
+                <li><a href="#quote">Quotes</a></li>
+                <li><a href="#call_to_action">Run!</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero">
             <div class="hero-div">
-            <h2 id="h2-hero">This website is awesome</h2>
-            <p class="p-hero">This website has some subtext that goes here uner the main title.
-                It's a smaller font and the color is lower contrast</p>
-            <button class="btn-hero">Sign Up</button>
+                <h2 class="h2-hero">It's always Shoe O'Clock!</h2>
+                <p class="p-hero">They went into my closets looking for skeletons,
+                    but thank God, all they found were shoes, beautiful shoes.</p>
+               <a href="https://www.youtube.com/watch?v=VbUuB1aN2DA&ab_channel=isleofwightfestival" target="_blank"><button class="btn-hero"> Sign Up!</button></a>
             </div>
+
             <figure class="hero-image">
-                <img id="hero-image" src="./Images/hero-image.jpg" alt="">
+                <img id="hero-image" src="./Images/hero-image.jpg" alt="a picture of red trainers">
             </figure>
         </section>
 
-        <figure class="images">
-            <h3 class="information">Some random information</h3>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </figure>
+        <div class="center-images">
+            <h4 class="information" id="4_shoes">Shoes and other shoes!</h4>
+            <div class="center-information-images">
 
-        <blockquote class="quote">
-            <p>This is a quote. </p>
+                <div class="image-1"><img class="center-img" src="./Images/figure-image1.jpg"
+                        alt="a picture of dress shoes">
+                    <p class="subtext">Dress shoes</p>
+                </div>
+                <div class="image-2"><img class="center-img" src="./Images/figure-image2.jpg"
+                        alt="a picture of trainers">
+                    <p class="subtext">Trainers</p>
+                </div>
+                <div class="image-3"><img class="center-img" src="./Images/figure-image3.jpg"
+                        alt="a picture of canvas shoes">
+                    <p class="subtext">Canvas shoes</p>
+                </div>
+                <div class="image-4"><img class="center-img" src="./Images/figure-image4.jpg"
+                        alt="a picture of pizza shoes">
+                    <p class="subtext">Whatever the hell this is shoes</p>
+                </div>
+            </div>
+        </div>
+
+        <blockquote class="quote" id="quote">
+            <p><em> "These are my new shoes. They're good shoes. They won't make you rich
+                    like me, they won't make you rebound like me, they definitely won't
+                    make you handsome like me. They'll only make you have shoes like me. That's it."</em>
+                <h5 class="h5-quote">-Charles Barkley</h5>
+            </p>
         </blockquote>
 
-        <div class="call-to-action">
-            <h4>Call to action! It's time!</h4>
-            <p>Sign up for our product by clicking thath button right over there!</p>
-            <button class="btn" id="footer-btn">Sign up</button>
+        <div class="call-to-action" id="call_to_action">
+            <div class="h4-p-call">
+                <h4 class="h4-call">It's shoe time!</h4>
+                <p class="p-call">Don't step on my blue suede shoes, but step on that blue suede button!</p>
+            </div>
+            <a href="https://www.youtube.com/watch?v=F33ogus-jbo&ab_channel=incT" target="_blank"><button class="btn" id="footer-btn">Sign up</button></a>
         </div>
     </main>
 
-    <footer class="footer">
-        <p class="p-footer">Copyright</p>
+    <footer>
+        <div class="p-footer">
+            <p>CopyrightⒸ</p>
+        </div>
+        <div class="run-up"> <a href="#top">Run to the top</a></div>
     </footer>
 
 </body>
